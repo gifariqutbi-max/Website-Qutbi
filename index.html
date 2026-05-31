@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gifari Book Store — Temukan Buku Favoritmu di Sini</title>
+  <meta name="description" content="Gifari Book Store adalah toko buku online terpercaya di Tebo, Jambi. Koleksi buku lengkap: novel, komik, pendidikan, teknologi, bisnis. Pengiriman ke seluruh Indonesia.">
+  <meta name="keywords" content="toko buku online, buku murah, novel, komik, buku pendidikan, Gifari Book Store, Tebo Jambi">
+  <meta name="author" content="Gifari Qutbi">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Gifari Book Store — Temukan Buku Favoritmu">
+  <meta property="og:description" content="Toko buku online terpercaya dengan koleksi lengkap dan pengiriman ke seluruh Indonesia.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a class="nav-logo" href="#" data-page="home">
+      <div class="nav-logo-icon">📖</div>
+      <div>
+        <div class="nav-logo-text">Gifari Book Store</div>
+        <div class="nav-logo-sub">Tebo · Jambi</div>
+      </div>
+    </a>
+    <div class="nav-links">
+      <a href="#" data-page="home">Beranda</a>
+      <a href="#" data-page="about">Tentang</a>
+      <a href="#" data-page="books">Buku</a>
+      <a href="#" data-page="team">Tim</a>
+      <a href="#" data-page="blog">Blog</a>
+      <a href="#" data-page="faq">FAQ</a>
+      <a href="#" data-page="contact">Kontak</a>
+    </div>
+    <a href="#" class="btn btn-primary nav-cta" data-page="books">Belanja Sekarang</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="mobile-nav" id="mobileNav">
+  <a href="#" data-page="home">🏠 Beranda</a>
+  <a href="#" data-page="about">ℹ️ Tentang Kami</a>
+  <a href="#" data-page="books">📚 Koleksi Buku</a>
+  <a href="#" data-page="team">👥 Tim</a>
+  <a href="#" data-page="blog">✍️ Blog</a>
+  <a href="#" data-page="faq">❓ FAQ</a>
+  <a href="#" data-page="contact">📬 Kontak</a>
+</div>
+
+<!-- ====================================
+     PAGE: HOME
+     ==================================== -->
+<div id="page-home" class="page">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-pattern"></div>
+    <div class="container">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="hero-label">📚 Toko Buku Terpercaya Sejak 2018</div>
+          <h1 class="hero-title">
+            Gifari<br><em>Book Store</em>
+          </h1>
+          <p class="hero-sub">Temukan Buku Favoritmu di Sini — koleksi lengkap novel, komik, pendidikan, teknologi, dan bisnis dengan harga terjangkau.</p>
+          <div class="hero-actions">
+            <a href="#" class="btn btn-gold" data-page="books">Lihat Koleksi →</a>
+            <a href="#" class="btn btn-outline" style="border-color:rgba(250,246,239,0.3);color:var(--cream);" data-page="about">Tentang Kami</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <div class="hero-stat-num">2.500+</div>
+              <div class="hero-stat-label">Judul Buku</div>
+            </div>
+            <div>
+              <div class="hero-stat-num">8.000+</div>
+              <div class="hero-stat-label">Pelanggan Puas</div>
+            </div>
+            <div>
+              <div class="hero-stat-num">50+</div>
+              <div class="hero-stat-label">Penerbit Partner</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-bookshelf" id="heroBookshelf">
+            <div class="hero-shelf-line"></div>
+            <div class="hero-shelf-line"></div>
+            <div class="hero-shelf-line"></div>
+          </div>
+          <div class="hero-badge">
+            <div class="hero-badge-num">⭐ 4.9</div>
+            Rating Pelanggan
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center reveal">
+        <div class="section-label">Jelajahi Koleksi</div>
+        <h2 class="section-title">Kategori Buku</h2>
+        <p class="section-sub">Temukan buku sesuai minat dan kebutuhanmu dari koleksi kami yang terus diperbarui.</p>
+      </div>
+      <div class="categories-grid">
+        <a href="#" class="category-card reveal" data-page="books">
+          <div class="cat-icon" style="background:#FFF3E0;">📖</div>
+          <h4>Novel</h4>
+          <p>450+ judul</p>
+        </a>
+        <a href="#" class="category-card reveal reveal-delay-1" data-page="books">
+          <div class="cat-icon" style="background:#F3E5F5;">🎨</div>
+          <h4>Komik</h4>
+          <p>320+ judul</p>
+        </a>
+        <a href="#" class="category-card reveal reveal-delay-2" data-page="books">
+          <div class="cat-icon" style="background:#E8F5E9;">🎓</div>
+          <h4>Pendidikan</h4>
+          <p>680+ judul</p>
+        </a>
+        <a href="#" class="category-card reveal reveal-delay-3" data-page="books">
+          <div class="cat-icon" style="background:#E3F2FD;">💻</div>
+          <h4>Teknologi</h4>
+          <p>290+ judul</p>
+        </a>
+        <a href="#" class="category-card reveal reveal-delay-4" data-page="books">
+          <div class="cat-icon" style="background:#FFF8E1;">💼</div>
+          <h4>Bisnis</h4>
+          <p>380+ judul</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Books Preview -->
+  <section class="section-sm" style="background:var(--cream-dark);padding:80px 0;">
+    <div class="container">
+      <div style="display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:40px;flex-wrap:wrap;gap:16px;">
+        <div class="reveal">
+          <div class="section-label">Pilihan Terbaik</div>
+          <h2 class="section-title" style="margin-bottom:0;">Buku Populer Minggu Ini</h2>
+        </div>
+        <a href="#" class="btn btn-outline reveal" data-page="books">Lihat Semua →</a>
+      </div>
+      <div class="books-grid" id="featuredBooks" style="grid-template-columns:repeat(4,1fr);">
+        <!-- Rendered via JS on home load -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center reveal">
+        <div class="section-label">Keunggulan Kami</div>
+        <h2 class="section-title">Kenapa Pilih Gifari Book Store?</h2>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:48px;" class="why-grid">
+        <div class="vm-card reveal">
+          <div class="vm-icon">📦</div>
+          <h3 style="font-size:1.1rem;">Pengiriman Cepat</h3>
+          <p style="font-size:0.85rem;">Estimasi 1-7 hari kerja ke seluruh Indonesia dengan kemasan aman anti-rusak.</p>
+        </div>
+        <div class="vm-card reveal reveal-delay-1">
+          <div class="vm-icon">✅</div>
+          <h3 style="font-size:1.1rem;">100% Original</h3>
+          <p style="font-size:0.85rem;">Semua buku berlisensi resmi dari penerbit terpercaya, dilengkapi hologram keaslian.</p>
+        </div>
+        <div class="vm-card reveal reveal-delay-2">
+          <div class="vm-icon">💰</div>
+          <h3 style="font-size:1.1rem;">Harga Terjangkau</h3>
+          <p style="font-size:0.85rem;">Harga kompetitif dengan promo dan diskon menarik untuk member setia kami.</p>
+        </div>
+        <div class="vm-card reveal reveal-delay-3">
+          <div class="vm-icon">🎧</div>
+          <h3 style="font-size:1.1rem;">Layanan Prima</h3>
+          <p style="font-size:0.85rem;">Customer service siap membantu Senin–Sabtu pukul 08.00–17.00 WIB.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section style="background:var(--walnut);padding:80px 0;position:relative;overflow:hidden;">
+    <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 70% 50%,rgba(201,151,43,0.15) 0%,transparent 60%);"></div>
+    <div class="container" style="position:relative;text-align:center;">
+      <div class="section-label" style="color:var(--gold-light);" >Bergabung Sekarang</div>
+      <h2 style="color:var(--cream);margin-bottom:16px;" class="reveal">Mulai Perjalanan Membacamu</h2>
+      <p style="color:rgba(250,246,239,0.65);max-width:500px;margin:0 auto 32px;" class="reveal">Daftarkan dirimu dan dapatkan diskon 10% untuk pembelian pertama. Gratis ongkir untuk pesanan di atas Rp 300.000!</p>
+      <a href="#" class="btn btn-gold reveal" data-page="books">🛍️ Belanja Sekarang</a>
+    </div>
+  </section>
+
+</div><!-- end page-home -->
+
+
+<!-- ====================================
+     PAGE: ABOUT
+     ==================================== -->
+<div id="page-about" class="page">
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="#" data-page="home">Beranda</a><span>›</span> Tentang Kami</div>
+      <h1>Tentang Gifari Book Store</h1>
+      <p>Mengenal lebih dekat toko buku kebanggaan Tebo, Jambi</p>
+    </div>
+  </div>
+
+  <!-- About Story -->
+  <section class="section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-img-main">
+            <img src="https://images.unsplash.com/photo-1568667256549-094345857637?w=600&h=750&fit=crop" alt="Toko Gifari Book Store" style="width:100%;height:100%;object-fit:cover;">
+          </div>
+          <div class="about-img-accent">
+            <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=300&h=300&fit=crop" alt="Koleksi Buku" style="width:100%;height:100%;object-fit:cover;">
+          </div>
+          <div class="about-years">
+            <div class="about-years-num">8+</div>
+            <div class="about-years-label">Tahun<br>Melayani</div>
+          </div>
+        </div>
+        <div class="about-content reveal">
+          <div class="section-label">Cerita Kami</div>
+          <h2 class="section-title">Didirikan dengan Cinta untuk Buku</h2>
+          <p style="margin-bottom:20px;">Gifari Book Store lahir pada tahun 2018 di Tebo, Jambi, dari sebuah cita-cita sederhana: membuat buku berkualitas lebih mudah dijangkau masyarakat Indonesia, terutama di luar kota-kota besar.</p>
+          <p style="margin-bottom:32px;">Berawal dari sebuah kios kecil dengan ratusan judul, kini Gifari Book Store telah berkembang menjadi toko buku online dengan lebih dari 2.500 judul buku dari berbagai genre dan penerbit terkemuka Indonesia maupun mancanegara.</p>
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="about-feature-icon">📚</div>
+              <div>
+                <h4>Koleksi Terlengkap</h4>
+                <p>Lebih dari 2.500 judul buku dari berbagai genre tersedia untuk pelanggan kami.</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">🚀</div>
+              <div>
+                <h4>Terus Berkembang</h4>
+                <p>Setiap bulan kami menambahkan ratusan judul baru untuk memuaskan dahaga literasimu.</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">❤️</div>
+              <div>
+                <h4>Komunitas Pembaca</h4>
+                <p>Lebih dari 8.000 pelanggan setia yang telah mempercayakan kebutuhan buku mereka kepada kami.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Owner Profile -->
+  <div class="owner-section">
+    <div class="container">
+      <div class="owner-inner">
+        <div class="owner-photo">👨‍💼</div>
+        <div>
+          <div class="owner-label section-label">Pemilik & Pendiri</div>
+          <h2 class="owner-name">Gifari Qutbi</h2>
+          <div class="owner-role">Founder & Owner — Gifari Book Store</div>
+          <p class="owner-bio">Gifari Qutbi adalah seorang penggemar buku sejati yang telah mencintai dunia literasi sejak masa kecil. Dengan latar belakang pendidikan di bidang manajemen bisnis dan passion yang mendalam terhadap dunia baca, ia mendirikan Gifari Book Store dengan misi mulia: mendekatkan buku kepada masyarakat Indonesia di mana pun mereka berada.</p>
+          <p class="owner-bio" style="margin-top:12px;">"Setiap buku adalah jendela dunia. Saya ingin membuka jendela itu selebar-lebarnya untuk setiap orang Indonesia." — Gifari Qutbi</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vision & Mission -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center reveal" style="margin-bottom:48px;">
+        <div class="section-label">Arah & Tujuan</div>
+        <h2 class="section-title">Visi & Misi Kami</h2>
+      </div>
+      <div class="vm-grid">
+        <div class="vm-card reveal">
+          <div class="vm-icon">🔭</div>
+          <h3>Visi</h3>
+          <p>Menjadi toko buku online terdepan dan terpercaya di Indonesia yang menginspirasi masyarakat untuk mencintai budaya membaca demi kemajuan bangsa.</p>
+        </div>
+        <div class="vm-card reveal reveal-delay-1">
+          <div class="vm-icon">🎯</div>
+          <h3>Misi</h3>
+          <ul class="vm-list">
+            <li>Menyediakan koleksi buku berkualitas dengan harga terjangkau</li>
+            <li>Menghadirkan pengalaman belanja buku yang mudah dan menyenangkan</li>
+            <li>Mendukung penulis dan industri penerbitan Indonesia</li>
+            <li>Membangun komunitas pembaca yang aktif dan inspiratif</li>
+            <li>Memperluas akses literasi ke seluruh pelosok Indonesia</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+<!-- ====================================
+     PAGE: BOOKS
+     ==================================== -->
+<div id="page-books" class="page">
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="#" data-page="home">Beranda</a><span>›</span> Koleksi Buku</div>
+      <h1>Koleksi Buku Kami</h1>
+      <p>Jelajahi ribuan judul buku pilihan dari berbagai genre</p>
+    </div>
+  </div>
+  <section class="section">
+    <div class="container">
+      <div class="books-search">
+        <div class="search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="bookSearch" placeholder="Cari judul, penulis, atau kategori...">
+        </div>
+        <select class="filter-select" id="catFilter">
+          <option value="">Semua Kategori</option>
+          <option value="Novel">Novel</option>
+          <option value="Komik">Komik</option>
+          <option value="Pendidikan">Pendidikan</option>
+          <option value="Teknologi">Teknologi</option>
+          <option value="Bisnis">Bisnis</option>
+        </select>
+      </div>
+      <div class="books-grid" id="booksGrid"></div>
+    </div>
+  </section>
+</div>
+
+
+<!-- ====================================
+     PAGE: TEAM
+     ==================================== -->
+<div id="page-team" class="page">
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="#" data-page="home">Beranda</a><span>›</span> Tim Kami</div>
+      <h1>Tim Gifari Book Store</h1>
+      <p>Orang-orang berdedikasi di balik pelayanan terbaik kami</p>
+    </div>
+  </div>
+  <section class="section">
+    <div class="container">
+      <div class="text-center reveal">
+        <div class="section-label">Kenalan dengan Kami</div>
+        <h2 class="section-title">Tim Kami</h2>
+        <p class="section-sub">Kami adalah tim kecil yang bersemangat dengan satu misi: memberikan pengalaman terbaik bagi para pecinta buku.</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card reveal">
+          <div class="team-avatar" style="background:#FFF3E0;color:var(--walnut);">GQ</div>
+          <div class="team-name">Gifari Qutbi</div>
+          <div class="team-role">Founder & Owner</div>
+          <p class="team-bio">Pendiri dan pemilik Gifari Book Store. Pecinta buku sejati yang berdedikasi membangun ekosistem literasi di Jambi dan seluruh Indonesia.</p>
+          <div class="team-socials">
+            <a href="#" title="Instagram">📸</a>
+            <a href="#" title="LinkedIn">💼</a>
+            <a href="#" title="Twitter">🐦</a>
+          </div>
+        </div>
+        <div class="team-card reveal reveal-delay-1">
+          <div class="team-avatar" style="background:#E8F5E9;color:#2E7D32;">SA</div>
+          <div class="team-name">Sari Anggraeni</div>
+          <div class="team-role">Store Admin</div>
+          <p class="team-bio">Mengurus seluruh operasional toko dengan teliti. Ahli dalam manajemen inventaris dan memastikan setiap pesanan diproses dengan cepat dan akurat.</p>
+          <div class="team-socials">
+            <a href="#" title="Instagram">📸</a>
+            <a href="#" title="LinkedIn">💼</a>
+          </div>
+        </div>
+        <div class="team-card reveal reveal-delay-2">
+          <div class="team-avatar" style="background:#E3F2FD;color:#1565C0;">RP</div>
+          <div class="team-name">Rizki Pratama</div>
+          <div class="team-role">Customer Service</div>
+          <p class="team-bio">Wajah ramah Gifari Book Store yang siap membantu setiap pelanggan menemukan buku yang tepat dan menangani pertanyaan dengan penuh senyum.</p>
+          <div class="team-socials">
+            <a href="#" title="Instagram">📸</a>
+            <a href="#" title="WhatsApp">💬</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Values -->
+      <div style="margin-top:80px;">
+        <div class="text-center reveal">
+          <div class="section-label">Budaya Kerja</div>
+          <h2 class="section-title">Nilai-Nilai Kami</h2>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:40px;" class="why-grid">
+          <div style="text-align:center;padding:28px 20px;" class="reveal">
+            <div style="font-size:2.2rem;margin-bottom:12px;">🤝</div>
+            <h4 style="font-family:var(--ff-display);color:var(--walnut);margin-bottom:8px;">Integritas</h4>
+            <p style="font-size:0.84rem;">Kami selalu jujur dan transparan dalam setiap aspek bisnis kami.</p>
+          </div>
+          <div style="text-align:center;padding:28px 20px;" class="reveal reveal-delay-1">
+            <div style="font-size:2.2rem;margin-bottom:12px;">⚡</div>
+            <h4 style="font-family:var(--ff-display);color:var(--walnut);margin-bottom:8px;">Inovasi</h4>
+            <p style="font-size:0.84rem;">Terus berinovasi untuk memberikan layanan yang lebih baik setiap harinya.</p>
+          </div>
+          <div style="text-align:center;padding:28px 20px;" class="reveal reveal-delay-2">
+            <div style="font-size:2.2rem;margin-bottom:12px;">💛</div>
+            <h4 style="font-family:var(--ff-display);color:var(--walnut);margin-bottom:8px;">Passion</h4>
+            <p style="font-size:0.84rem;">Kami melayani dengan sepenuh hati karena kami mencintai buku seperti kamu.</p>
+          </div>
+          <div style="text-align:center;padding:28px 20px;" class="reveal reveal-delay-3">
+            <div style="font-size:2.2rem;margin-bottom:12px;">🌱</div>
+            <h4 style="font-family:var(--ff-display);color:var(--walnut);margin-bottom:8px;">Pertumbuhan</h4>
+            <p style="font-size:0.84rem;">Kami percaya bahwa belajar dan berkembang adalah proses tanpa akhir.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+<!-- ====================================
+     PAGE: BLOG
+     ==================================== -->
+<div id="page-blog" class="page">
+  <div id="blogPageHeader">
+    <div class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="#" data-page="home">Beranda</a><span>›</span> Blog</div>
+        <h1>Blog Literasi</h1>
+        <p>Inspirasi, tips membaca, dan rekomendasi buku terbaik</p>
+      </div>
+    </div>
+  </div>
+  <section class="section">
+    <div class="container">
+      <div class="blog-grid" id="blogList" style="display:grid;"></div>
+    </div>
+  </section>
+  <div id="articleDetail" class="article-detail"></div>
+</div>
+
+
+<!-- ====================================
+     PAGE: CONTACT
+     ==================================== -->
+<div id="page-contact" class="page">
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="#" data-page="home">Beranda</a><span>›</span> Kontak</div>
+      <h1>Hubungi Kami</h1>
+      <p>Kami siap membantu kamu menemukan buku yang tepat</p>
+    </div>
+  </div>
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Info -->
+        <div>
+          <div class="section-label reveal">Informasi Kontak</div>
+          <h2 class="section-title reveal">Mari Terhubung</h2>
+          <p class="section-sub reveal" style="margin-bottom:40px;">Punya pertanyaan tentang buku, pemesanan, atau pengiriman? Tim kami siap membantu kamu!</p>
+          <div class="contact-info">
+            <div class="contact-item reveal">
+              <div class="contact-icon">👤</div>
+              <div>
+                <h4>Pemilik</h4>
+                <p>Gifari Qutbi</p>
+              </div>
+            </div>
+            <div class="contact-item reveal">
+              <div class="contact-icon">📍</div>
+              <div>
+                <h4>Alamat Toko</h4>
+                <p>Jl. Raya Tebo No. 88, Tebo<br>Jambi, Indonesia 37500</p>
+              </div>
+            </div>
+            <div class="contact-item reveal">
+              <div class="contact-icon">📧</div>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:info@gifaribookstore.com">info@gifaribookstore.com</a>
+              </div>
+            </div>
+            <div class="contact-item reveal">
+              <div class="contact-icon">📱</div>
+              <div>
+                <h4>Telepon / WhatsApp</h4>
+                <a href="tel:+6281234567890">+62 812-3456-7890</a>
+              </div>
+            </div>
+            <div class="contact-item reveal">
+              <div class="contact-icon">🕐</div>
+              <div>
+                <h4>Jam Operasional</h4>
+                <p>Senin – Jumat: 08.00 – 17.00 WIB<br>Sabtu: 08.00 – 15.00 WIB<br>Minggu: Libur</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Form -->
+        <div class="contact-form reveal">
+          <h3>Kirim Pesan</h3>
+          <p>Isi formulir di bawah dan kami akan membalas dalam 1×24 jam.</p>
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contactName">Nama Lengkap *</label>
+                <input type="text" id="contactName" placeholder="Nama kamu">
+                <div class="form-error">Nama tidak boleh kosong</div>
+              </div>
+              <div class="form-group">
+                <label for="contactEmail">Email *</label>
+                <input type="email" id="contactEmail" placeholder="email@kamu.com">
+                <div class="form-error">Email tidak valid</div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="contactSubject">Subjek *</label>
+              <select id="contactSubject">
+                <option value="">-- Pilih Subjek --</option>
+                <option>Pertanyaan tentang Buku</option>
+                <option>Status Pesanan</option>
+                <option>Pengiriman</option>
+                <option>Pengembalian Buku</option>
+                <option>Kerjasama / Partnership</option>
+                <option>Lainnya</option>
+              </select>
+              <div class="form-error">Silakan pilih subjek</div>
+            </div>
+            <div class="form-group">
+              <label for="contactMessage">Pesan *</label>
+              <textarea id="contactMessage" placeholder="Tuliskan pesan kamu di sini..."></textarea>
+              <div class="form-error">Pesan tidak boleh kosong</div>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">📨 Kirim Pesan</button>
+            <div class="form-success" id="formSuccess">
+              ✅ Pesan berhasil terkirim! Kami akan menghubungi kamu segera.
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Map -->
+      <div class="map-wrap reveal">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63800.35065527856!2d102.40630515!3d-1.44209405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3e2a03e30f5c8d%3A0x27a14c3c00e2c19a!2sTebo%2C%20Jambi!5e0!3m2!1sid!2sid!4v1"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Lokasi Gifari Book Store - Tebo, Jambi">
+        </iframe>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+<!-- ====================================
+     PAGE: FAQ
+     ==================================== -->
+<div id="page-faq" class="page">
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="#" data-page="home">Beranda</a><span>›</span> FAQ</div>
+      <h1>Pertanyaan Umum</h1>
+      <p>Temukan jawaban untuk pertanyaan yang sering ditanyakan</p>
+    </div>
+  </div>
+  <section class="section">
+    <div class="container">
+      <div class="text-center reveal">
+        <div class="section-label">FAQ</div>
+        <h2 class="section-title">Ada yang Bisa Kami Bantu?</h2>
+        <p class="section-sub">Jika pertanyaanmu tidak ada di sini, jangan ragu untuk menghubungi kami langsung.</p>
+      </div>
+      <div class="faq-list" id="faqList"></div>
+      <div style="text-align:center;margin-top:48px;" class="reveal">
+        <p style="margin-bottom:20px;">Masih ada pertanyaan lain?</p>
+        <a href="#" class="btn btn-primary" data-page="contact">📬 Hubungi Kami</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+<!-- ====================================
+     FOOTER
+     ==================================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <div class="footer-logo-icon">📖</div>
+          <div class="footer-logo-name">Gifari Book Store</div>
+        </div>
+        <p class="footer-desc">Toko buku online terpercaya di Tebo, Jambi. Menghadirkan koleksi buku berkualitas untuk mencerdaskan dan menginspirasi bangsa.</p>
+        <div class="footer-socials">
+          <a href="#" title="Instagram">📸</a>
+          <a href="#" title="Facebook">👍</a>
+          <a href="#" title="Twitter">🐦</a>
+          <a href="#" title="YouTube">▶️</a>
+          <a href="#" title="TikTok">🎵</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Navigasi</h5>
+        <ul>
+          <li><a href="#" data-page="home">Beranda</a></li>
+          <li><a href="#" data-page="about">Tentang Kami</a></li>
+          <li><a href="#" data-page="books">Koleksi Buku</a></li>
+          <li><a href="#" data-page="team">Tim Kami</a></li>
+          <li><a href="#" data-page="blog">Blog</a></li>
+          <li><a href="#" data-page="faq">FAQ</a></li>
+          <li><a href="#" data-page="contact">Kontak</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Kategori Buku</h5>
+        <ul>
+          <li><a href="#" data-page="books">Novel</a></li>
+          <li><a href="#" data-page="books">Komik</a></li>
+          <li><a href="#" data-page="books">Pendidikan</a></li>
+          <li><a href="#" data-page="books">Teknologi</a></li>
+          <li><a href="#" data-page="books">Bisnis</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Jam Operasional</h5>
+        <div class="footer-hours">
+          <div class="footer-hour"><span>Senin – Jumat</span><span>08.00–17.00</span></div>
+          <div class="footer-hour"><span>Sabtu</span><span>08.00–15.00</span></div>
+          <div class="footer-hour"><span>Minggu</span><span>Libur</span></div>
+        </div>
+        <div class="footer-address">
+          <div style="margin-bottom:6px;">📍 Jl. Raya Tebo No. 88</div>
+          <div style="margin-bottom:6px;">Tebo, Jambi 37500</div>
+          <div style="margin-bottom:6px;">📧 info@gifaribookstore.com</div>
+          <div>📱 +62 812-3456-7890</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 <a href="#" data-page="home">Gifari Book Store</a>. All rights reserved.</span>
+      <span>Made with ❤️ by <a href="#" data-page="about">Gifari Qutbi</a> — Tebo, Jambi</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+<!-- Back to Top -->
+<button class="back-to-top" id="backToTop" title="Kembali ke atas">↑</button>
+
+<script src="js/main.js"></script>
+<script>
+  // Render featured books on home page
+  document.addEventListener('DOMContentLoaded', () => {
+    const featured = document.getElementById('featuredBooks');
+    if (featured) {
+      featured.innerHTML = booksData.slice(0, 4).map(b => `
+        <div class="book-card reveal">
+          <div class="book-cover">
+            <img src="${b.cover}" alt="${b.title}" class="book-cover-img" loading="lazy">
+            <span class="book-badge">${b.badge}</span>
+          </div>
+          <div class="book-info">
+            <div class="book-category">${b.category}</div>
+            <div class="book-title">${b.title}</div>
+            <div class="book-author">✍️ ${b.author}</div>
+            <div class="book-desc">${b.desc}</div>
+            <div class="book-footer">
+              <span class="book-price">${b.price}</span>
+              <button class="book-btn" onclick="showToast('📚 ${b.title} ditambahkan!')">Beli</button>
+            </div>
+          </div>
+        </div>`).join('');
+    }
+  });
+</script>
+</body>
+</html>
